@@ -308,25 +308,25 @@ Cleanup service runs every 60 seconds.
 
 ## Optimized for:
 
-Desktop
-Tablets
-Mobile devices
+1. Desktop
+2. Tablets
+3. Mobile devices
 
 ---
 
 # 🧪 Testing Checklist
 ## Test Uploads
-JPG
-PNG
-WEBP
-PDF
-DOCX
+1. JPG
+2. PNG
+3. WEBP
+4. PDF
+5. DOCX
 
 ## Test Operations
-Increase file size
-Decrease file size
-Download output
-Cleanup behavior
+1. Increase file size
+2. Decrease file size
+3. Download output
+4. Cleanup behavior
 
 ---
 
