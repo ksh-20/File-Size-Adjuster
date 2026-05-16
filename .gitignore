@@ -1,0 +1,18 @@
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/app/temp/*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/package-lock.json
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
