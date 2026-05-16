@@ -257,9 +257,8 @@ Maintain valid PDF integrity
 PyMuPDF
 pikepdf
 
----
 
-# 📝 DOCX Processing
+## 📝 DOCX Processing
 Reduce Size
 Optimize media
 Compress internal zip structure
@@ -267,7 +266,7 @@ Increase Size
 Add hidden padding
 Maintain DOCX validity
 
-## Libraries used:
+### Libraries used:
 
 python-docx
 zipfile
