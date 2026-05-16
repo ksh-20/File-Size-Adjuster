@@ -37,7 +37,7 @@ export default function ResultCard({ result, originalSize }) {
       </div>
 
       <a
-        href={`http://localhost:8000${result.download_url}`}
+        href={`${import.meta.env.VITE_API_URL}${result.download_url}`}
         className="download-btn"
       >
         Download File
