@@ -166,19 +166,6 @@ TEMP_DIR=app/temp
 MAX_FILE_SIZE=104857600
 CLEANUP_MINUTES=5
 
-
-## 📘 Backend Environment Variables Explained
-Variable	Description
-TEMP_DIR	Temporary file storage location
-MAX_FILE_SIZE	Maximum upload size in bytes
-CLEANUP_MINUTES	Auto delete timeout
-
-## 📏 Upload Size Reference
-Size	Bytes
-10MB	10485760
-50MB	52428800
-100MB	104857600
-
 ## ▶️ Run Backend
 ``` bash
 uvicorn app.main:app --reload
@@ -280,9 +267,7 @@ Increase Size
 Add hidden padding
 Maintain DOCX validity
 
----
-
-# Libraries used:
+## Libraries used:
 
 python-docx
 zipfile
@@ -290,12 +275,12 @@ zipfile
 --- 
 
 # 🔒 Security Features
-MIME type validation
-Secure temporary storage
-UUID file naming
-Path traversal prevention
-Max upload size restrictions
-Auto cleanup scheduler
+1. MIME type validation
+2. Secure temporary storage
+3. UUID file naming
+4. Path traversal prevention
+5. Max upload size restrictions
+6.  Auto cleanup scheduler
 
 --- 
 
@@ -311,15 +296,15 @@ Cleanup service runs every 60 seconds.
 ---
 
 # 🎨 UI/UX Features
-Glassmorphism cards
-Gradient backgrounds
-Responsive layout
-Animated transitions
-Drag & drop upload
-Hover effects
-Progress animations
-Dark premium theme
-📱 Responsive Design
+1. Glassmorphism cards
+2. Gradient backgrounds
+3. Responsive layout
+4. Animated transitions
+5. Drag & drop upload
+6. Hover effects
+7. Progress animations
+8. Dark premium theme
+9. 📱 Responsive Design
 
 ## Optimized for:
 
@@ -359,26 +344,25 @@ frontend/dist
 
 # 🐳 Recommended Production Deployment
 ## Frontend
-Vercel
-Netlify
-Nginx
+1. Vercel
+2. Netlify
+3. Nginx
 
 ## Backend
-Render
-Railway
-VPS
-Docker
+1. Render
+2. Streamlit
+3. Docker
 
 ---
 
 # 🔧 Recommended Future Improvements
-Queue system for heavy processing
-WebSocket live progress
-Redis caching
-Multi-file batch processing
-User authentication
-Cloud storage integration
-AI-based smart compression
+1. Queue system for heavy processing
+2. WebSocket live progress
+3. Redis caching
+4. Multi-file batch processing
+5. User authentication
+6. Cloud storage integration
+7. AI-based smart compression
 
 ---
 
